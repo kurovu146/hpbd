@@ -36,7 +36,7 @@ $('document').ready(function(){
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
-		$(this).fadeOut('slow').delay(2000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
 	});
@@ -50,7 +50,7 @@ $('document').ready(function(){
 		$('#bulb_orange').addClass('bulb-glow-orange');
 		$('body').addClass('peach');
 		$("#welcome_dance").remove();
-		$(this).fadeOut('slow').delay(2000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#play').fadeIn('slow');
 		});
 	});
@@ -59,7 +59,7 @@ $('document').ready(function(){
 		$('#banner').css("display", "block");
 		$('.bannar').addClass('center');
 		$('.bannar').addClass('bannar-come');
-		$(this).fadeOut('slow').delay(2000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
 	});
@@ -140,7 +140,7 @@ $('document').ready(function(){
 		loopSeven();
 		loopEight();
 		
-		$(this).fadeOut('slow').delay(2000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#invite_friends').fadeIn('slow');
 		});
 	});	
@@ -152,7 +152,7 @@ $('document').ready(function(){
 		 mid_diff = mid/12;
 		 vw_diff = vw/12;
 		$('#self').css({"display": "block", "top":'300px'});
-		$('#self').animate({top:mid-mid_diff*4+50,left:vw-85},3000);
+		$('#self').animate({top:mid-mid_diff*4+50,left:vw-75},3000);
 
 		$('#f1').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
 		$('#f1').animate({top:mid-mid_diff*3,left:vw-vw_diff*3},3000);
@@ -225,7 +225,7 @@ $('document').ready(function(){
 		$('#candle').css("display", "block");
 
 		$('#cake_pink').fadeIn('slow');
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
